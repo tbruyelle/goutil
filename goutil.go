@@ -15,7 +15,7 @@ func IsFile(path string) bool {
 
 // FileExists returns true if the file exists.
 func FileExists(path string) bool {
-	exists,_ := fileExists(path)
+	exists, _ := fileExists(path)
 	return exists
 }
 
